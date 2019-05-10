@@ -1,0 +1,42 @@
+$mybackgroundcolor: #D9DAF9;
+body {
+    background-color: $mybackgroundcolor;
+    word-wrap: break-word;
+}
+//    background-color: #D9DAF9;
+/*
+ul {
+    position: relative;
+    list-style: circle;
+    margin-left: 0;
+    padding-left: 1.4em;
+}
+
+ul li:before {
+    font-family: "FontAwesome";
+	font-weight: 400;
+	color: #316F9A;
+	//transform: rotate(45deg);
+    content: "\f0da";
+    position: absolute;
+    left: 0;
+}
+*/
+ul {
+    list-style-type: disc;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: 'Roboto Mono', monospace;
+    white-space: pre-wrap;
+}
+
+pre {
+    border: 1px solid #A2CBE8;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f5f5f5;
+}

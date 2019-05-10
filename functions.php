@@ -25,6 +25,12 @@ if ( ! function_exists( 'hello_elementor_theme_setup' ) ) {
 			register_nav_menus( array( 'menu-1' => __( 'Primary', 'hello-elementor' ) ) );
 		}
 
+        if ( apply_filters( 'hello_elementor_theme_register_sidebars', true ) ) {
+            register_sidebar( array(
+                'name' => __( 'Main Sidebar', 'hello-elementor' ),
+                'id' => 'sidebar-1' ) );
+        }
+
 		if ( apply_filters( 'hello_elementor_theme_add_theme_support', true ) ) {
 			add_theme_support( 'post-thumbnails' );
 			add_theme_support( 'automatic-feed-links' );
