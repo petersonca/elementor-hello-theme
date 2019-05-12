@@ -822,3 +822,16 @@ pre {
           border-radius: 4px;
   padding: 10px;
   background-color: #f5f5f5; }
+
+.wp-playlist.wp-playlist-light {
+  background-color: #E6F0F7;
+  border-color: #316f9a; }
+
+.wp-playlist.wp-playlist-light .wp-playlist-playing {
+  background-color: #E6F0F7; }
+
+.wp-playlist.wp-playlist-light .wp-playlist-item-length {
+  color: #316F9A; }
+
+.wp-playlist.wp-playlist-light .wp-playlist-caption {
+  color: #4e8ab5; }
