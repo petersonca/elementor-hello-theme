@@ -808,6 +808,9 @@ ul li:before {
     left: 0;
 }
 */
+dl, ol, ul {
+  margin-bottom: .9rem; }
+
 ul {
   list-style-type: disc; }
 
