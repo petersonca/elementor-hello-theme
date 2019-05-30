@@ -93,8 +93,9 @@ Source: https://stocksnap.io/photo/4B83RD7BV9
 
 ## Changelog ##
 
-### 2.0.6 - 2019-05-23 ###
-* Tweak: Minify css
+### 2.0.6 - 2019-05-08 ###
+* Tweak: Removed irrelevant font family from `$font-family-base`
+* Fix: Minified `style.css` for better optimization
 
 ### 2.0.5 - 2019-05-21 ###
 * New: Inroducing [Hello Theme Child](https://github.com/elementor/hello-theme-child)
