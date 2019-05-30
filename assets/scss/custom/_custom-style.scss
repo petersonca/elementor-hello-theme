@@ -3,6 +3,11 @@ body {
     background-color: $mybackgroundcolor;
     word-wrap: break-word;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-style: italic;
+}
+
 //    background-color: #D9DAF9;
 /*
 ul {
@@ -39,11 +44,20 @@ samp {
     white-space: pre-wrap;
 }
 
-pre {
+pre,
+code {
     border: 1px solid #A2CBE8;
+    background-color: #f5f5f5;
+}
+
+pre {
     border-radius: 4px;
     padding: 10px;
-    background-color: #f5f5f5;
+}
+
+code {
+    padding-left: .25em;
+    padding-right: .25em;
 }
 
 .wp-playlist.wp-playlist-light {
